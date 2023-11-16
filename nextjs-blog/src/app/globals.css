@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Mosk";
+	src: url("./fonts/Mosk Extra-Bold 800.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
