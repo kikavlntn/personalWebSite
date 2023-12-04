@@ -18,10 +18,16 @@ export default function RootLayout({
 				</header>
 				<div className="flex-1 grid grid-cols-[3fr_1fr] w-full">
 					<div className="overflow-y: auto">{children}</div>
-					<div className="col-start-2 bg-slate-900 text-white flex flex-col">
-						<a href="">about</a>
-						<a href="">projects</a>
-						<a href="">contact</a>
+					<div className="col-start-2 bg-slate-900 text-white flex flex-col ">
+						<a className="no-underline hover:underline" href="">
+							about
+						</a>
+						<a className="no-underline hover:underline" href="">
+							projects
+						</a>
+						<a className="no-underline hover:underline" href="">
+							contact
+						</a>
 					</div>
 				</div>
 			</body>
