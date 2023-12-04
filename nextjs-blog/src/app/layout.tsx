@@ -12,7 +12,19 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body>{children}</body>
+			<body className="bg-slate-900 m-12">
+				<header>
+					<div className="text-white text-4xl font-Mosk">Francisca Fonseca</div>
+				</header>
+				<div className="flex-1 grid grid-cols-[3fr_1fr] w-full">
+					<div className="overflow-y: auto">{children}</div>
+					<div className="col-start-2 bg-slate-900 text-white flex flex-col">
+						<a href="">about</a>
+						<a href="">projects</a>
+						<a href="">contact</a>
+					</div>
+				</div>
+			</body>
 		</html>
 	);
 }
