@@ -1,9 +1,10 @@
 export default function Home() {
 	return (
-		<main className=" bg-slate-900 leading-relaxed text-slate-400 grid-cols-2 h-screen	">
-			<div className="grid-cols-2	">
-				<div>
-					Front-end <br></br>Web developer
+		<main className="bg-slate-900 leading-relaxed text-slate-400 grid-cols-2 h-screen">
+			<div className="grid-cols-2 h-full">
+				<div className="h-full">
+					Front-end <br />
+					Web developer
 				</div>
 				<div className="col-span-2 md:col-span-1 text-white h-full">
 					Highly skilled professional with a diverse background in economics,
@@ -15,7 +16,6 @@ export default function Home() {
 				</div>
 				<div className="col-span-2 md:col-span-1 text-white h-full">
 					<a href="">Gatxs help gatxs</a>
-					<a href="">Abya Yala Libre Leipzig</a>
 				</div>
 				<div className="col-span-2 md:col-span-1 text-white h-full">
 					franfonsecav@gmail.com
