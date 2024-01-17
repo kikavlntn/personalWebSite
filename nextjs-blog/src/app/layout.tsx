@@ -14,11 +14,16 @@ export default function RootLayout({
 		<html lang="en">
 			<body className="bg-slate-900 m-12">
 				<header>
-					<div className="text-white text-4xl font-Mosk">Francisca Fonseca</div>
+					<h1 className="text-white text-4xl font-Mosk">Francisca Fonseca</h1>
+					<h2 className="h-full text-slate-400 ">
+						Front-end
+						<br />
+						Web developer
+					</h2>
 				</header>
-				<div className="flex-1 grid grid-cols-[3fr_1fr] w-full">
-					<div className="overflow-y: auto">{children}</div>
-					<div className="col-start-2 bg-slate-900 text-white flex flex-col ">
+				<div className="flex-1 grid grid-cols-[5fr_1fr] w-full">
+					<div className="overflow-y:  ">{children}</div>
+					<div className="col-start-2 bg-slate-900 text-white flex flex-col justify-between h-24 sticky top-10">
 						<a className="no-underline hover:underline" href="">
 							about
 						</a>
